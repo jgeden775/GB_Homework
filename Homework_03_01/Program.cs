@@ -12,8 +12,7 @@ start:
 Console.WriteLine();
 
 Console.WriteLine("Введите пятизначное число: ");
-int num = int.Parse(Console.ReadLine());
-string strnum = num.ToString();
+string strnum = Console.ReadLine();
 int[] arraynum = new int[strnum.Length];
 
 if (strnum.Length < 5)
