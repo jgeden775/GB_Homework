@@ -50,7 +50,7 @@ void PrintMatrix(int[,] matrix)
     {
         for (int j = 0; j < matrix.GetLength(1); j++)
         {
-            Write($"{matrix[i, j]} " );
+            Write($"{matrix[i, j].ToString("D2")} " );
         }
         WriteLine();
     }
